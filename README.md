@@ -26,7 +26,8 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 # Results 
-add site screenchot 
+![Final Page Screenshot](https://github.com/mariadls/blue-grass/blob/main/Final_Page_Screenshot.png?raw=true)
+
 
 ## Publication 
 The project was uploaded to GitHub at the following repository: https://github.com/mariadls/blue-grass.git
