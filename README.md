@@ -29,7 +29,7 @@ THEN the password is either displayed in an alert or written to the page
 add site screenchot 
 
 ## Publication 
-The project was uploaded to GitHub at the following repository:
+The project was uploaded to GitHub at the following repository: https://github.com/mariadls/blue-grass.git
 You can access the deployed application with the GitHup Pages link:
 
 
