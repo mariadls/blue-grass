@@ -30,6 +30,7 @@ add site screenchot
 
 ## Publication 
 The project was uploaded to GitHub at the following repository: https://github.com/mariadls/blue-grass.git
-You can access the deployed application with the GitHup Pages link:
+
+You can access the deployed application with the GitHup Pages link:https://mariadls.github.io/blue-grass/
 
 
