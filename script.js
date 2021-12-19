@@ -111,40 +111,32 @@ if (lowConfirm || upperConfirm || numberConfirm || specialConfirm) {
       ];
       let pwd = "";
 
-      // Generate the password for (let i = 0; pwd.length < passLength; i++) {
+      // Generate the password 
+      for (let i = 0; pwd.length < passLength; i++) {
 // Random select lower case / upper case / numeric / special
-let rdmType = Math.floor(Math.random() * 4);
+let ramType = Math.floor(Math.random() * 4);
+
  // Random lower case character
- if (rdmType === 0 && lcConfirm) {
-   ]
-     console.log(`rdmType: ${rdmType} = lc`);
+ if (ramType === 0 && lcConfirm) {
+   
+     console.log(`rdmType: ${ramType} = lc`);
           let rdmLC =
             lowCharArray[Math.floor(Math.random() * lowCharArray.length)];
-          console.log(`rdmLC: ${rdmLC}`);
+ console.log(`rdmLC: ${rdmLC}`);
           pwd = pwd + rdmLC;
-        }
-        // Random upper case character
-        else if (rdmType === 1 && ucConfirm) {
-          console.log(`rdmType: ${rdmType} = uc`);
-          let rdmUC =
-            upperCharArray[Math.floor(Math.random() * upperCharArray.length)];
-          console.log(`rdmUC: ${rdmUC}`);
-          pwd = pwd + rdmUC;
         }
 
         // Random number character
-        else if (rdmType === 2 && numConfirm) {
-          console.log(`rdmType: ${rdmType} = num`);
-          let rdmNumC =
-            numberCharArray[Math.floor(Math.random() * numberCharArray.length)];
+        else if (ramType === 2 && numConfirm) {
+          console.log(`rdmType: ${ramType} = num`);
+          let rdmNumC =      numberCharArray[Math.floor(Math.random() * numberCharArray.length)];
 
           console.log(`rdmNumC: ${rdmNumC}`);
-          pwd = pwd + rdmNum C;
+          pwd = pwd + rdmNumC;
         }
 
         // Random special character
-        else if (rdmType === 3 && specConfirm) {
-          console.log(`rdmType: ${rdmType} = spec`);
+        else if (ramType === 3 && specConfirm) {    console.log(`ramType: ${ramType} = spec`);
           let rdmSpecC =
             specialCharArray[Math.floor(Math.random() * specialCharArray.length)];
           console.log(`rdmSpecC: ${rdmSpecC}`);
@@ -152,8 +144,8 @@ let rdmType = Math.floor(Math.random() * 4);
         }
       }
 
-      // Return the final password generated
-      console.log(`pwd: ${pwd}`);
+ // Return the final password generated
+ console.log(`pwd: ${pwd}`);
       console.log(`pwd length: ${pwd.length}`);
       return pwd;
     } else {
